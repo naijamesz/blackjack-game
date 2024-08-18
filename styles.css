@@ -1,0 +1,132 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
+/* body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#game {
+  margin: 20px auto;
+  width: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#player-hand,
+#dealer-hand {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Cookie&family=Island+Moments&family=PT+Serif+Caption&family=Playfair+Display+SC:wght@400;700;900&family=Red+Hat+Display:wght@700;900&family=Roboto+Mono&display=swap');
+
+/* UNIVERSAL BODY STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  BODY STYLING */
+body {
+  margin-top: 15px;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 117, 59);
+}
+
+/* BODY H1 STYLING */
+h1 {
+  color: #eeae0b;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-decoration: dashed underline 0.25rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* DISPLAY MESSAGE STYLING */
+#message-el {
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* PARAGRAPH MESSAGE STYLING */
+p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS STYLING */
+button {
+  padding: 10px;
+  border: none;
+  color: rgb(5, 51, 5);
+  font-weight: bold;
+  width: 200px;
+  font-size: 25px;
+  border-radius: 0.875rem;
+  text-transform: uppercase;
+  background-color: #eeae0b;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: 8px auto;
+  font-family: 'Roboto Mono', monospace;
+}
+
+button:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #a77a08;
+}
+
+/* PLAYER MESSAGE STYLING */
+#player-el {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* MEDIA QUERY STYLING STARTS HERE */
+@media screen and (max-width: 300px) {
+  body {
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+
+  #message-el {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  button {
+    padding: 5px;
+    width: 120px;
+    font-size: 20px;
+  }
+
+  #player-el {
+    font-size: 15px;
+  }
+}
